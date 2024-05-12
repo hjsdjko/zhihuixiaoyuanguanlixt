@@ -1,0 +1,134 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/userinfo",
+    "pages/chat/list",
+    "pages/chat/list2",
+    "pages/chat/add-or-update",
+    "pages/chat/detail",
+    "pages/exampapertopic/list",
+    "pages/exampapertopic/list2",
+    "pages/exampapertopic/add-or-update",
+    "pages/exampapertopic/detail",
+    "pages/forum/forum-index",
+    "pages/forum/forum-detail",
+    "pages/forum/forum-my",
+    "pages/forum/forum-add-or-update",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/list2",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/kecheng/list",
+    "pages/kecheng/list2",
+    "pages/kecheng/add-or-update",
+    "pages/kecheng/detail",
+    "pages/kechengCollection/list",
+    "pages/kechengCollection/list2",
+    "pages/kechengCollection/add-or-update",
+    "pages/kechengCollection/detail",
+    "pages/kechengLiuyan/list",
+    "pages/kechengLiuyan/list2",
+    "pages/kechengLiuyan/add-or-update",
+    "pages/kechengLiuyan/detail",
+    "pages/news/list",
+    "pages/news/list2",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/tongxunlu/list",
+    "pages/tongxunlu/list2",
+    "pages/tongxunlu/add-or-update",
+    "pages/tongxunlu/detail",
+    "pages/tongzhi/list",
+    "pages/tongzhi/list2",
+    "pages/tongzhi/add-or-update",
+    "pages/tongzhi/detail",
+    "pages/xuexiaojianjie/list",
+    "pages/xuexiaojianjie/list2",
+    "pages/xuexiaojianjie/add-or-update",
+    "pages/xuexiaojianjie/detail",
+    "pages/yonghu/list",
+    "pages/yonghu/list2",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/yonghuKaoqin/list",
+    "pages/yonghuKaoqin/list2",
+    "pages/yonghuKaoqin/add-or-update",
+    "pages/yonghuKaoqin/detail",
+    "pages/yonghuKaoqinList/list",
+    "pages/yonghuKaoqinList/list2",
+    "pages/yonghuKaoqinList/add-or-update",
+    "pages/yonghuKaoqinList/detail",
+    "pages/yonghuqingjia/list",
+    "pages/yonghuqingjia/list2",
+    "pages/yonghuqingjia/add-or-update",
+    "pages/yonghuqingjia/detail",
+    "pages/zuoye/list",
+    "pages/zuoye/list2",
+    "pages/zuoye/add-or-update",
+    "pages/zuoye/detail",
+    "pages/exampaper/list",
+    "pages/exampaper/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examrewrongquestion/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智慧校园管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#FFFFFF",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#29ce87",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/exampaper/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "试卷表"
+      },
+      {
+        "pagePath": "pages/kecheng/list",
+        "iconPath": "static/tabs/type.png",
+        "selectedIconPath": "static/tabs/type1.png",
+        "text": "课程信息"
+      },
+      {
+        "pagePath": "pages/forum/forum-index",
+        "iconPath": "static/tabs/order.png",
+        "selectedIconPath": "static/tabs/order1.png",
+        "text": "论坛"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序将使用定位功能"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation",
+    "chooseLocation"
+  ],
+  "usingComponents": {}
+}
